@@ -9,29 +9,29 @@ const person = {
   age,
 };
 
-console.log(person.age);
+// console.log(person.age);
 
-// Destructuring object properties
+// // Destructuring object properties
 
-const todo = {
-  id: 1,
-  title: 'Take out trash',
-  user: {
-    name: 'John',
-  },
-};
+// const todo = {
+//   id: 1,
+//   title: 'Take out trash',
+//   user: {
+//     name: 'John',
+//   },
+// };
 
-const {
-  id: todoId, // rename id to todoId
-  title,
-  user: { name }, // destructuring multiple levels
-} = todo;
+// const {
+//   id: todoId, // rename id to todoId
+//   title,
+//   user: { name }, // destructuring multiple levels
+// } = todo;
 
-console.log(todoId);
+// console.log(todoId);
 
-// Destructuring arrays & using the rest/spread operator
+// // Destructuring arrays & using the rest/spread operator
 const numbers = [23, 67, 33, 49, 52];
 
 const [first, second, ...rest] = numbers;
 
-console.log(first, second, rest);
+console.log(first, second,  rest);

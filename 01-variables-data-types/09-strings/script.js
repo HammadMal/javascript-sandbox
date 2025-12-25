@@ -1,60 +1,78 @@
-let x;
+// let x;
 
-const name = 'John';
-const age = 31;
+// const name = 'John';
+// const age = 31;
 
-// Concatenation
-x = 'Hello, my name is ' + name + ' and I am ' + age + ' years old';
+// x = "Hammad";
 
-// Template Literals
-x = `Hello, my name is ${name} and I am ${age} years old`;
+// // x = x.toUpperCase();
 
-// String Properties and Methods
+// // Concatenation
+// // x = 'Hello, my name is ' + name + ' and I am ' + age + ' years old';
 
-// Creating a "string object" (JS does this automatically when using a propery or method on a primitive string)
-const s = new String('Hello World');
+// // // Template Literals
+// // x = `Hello, my name is ${name} and I am ${age} years old`;
 
-x = typeof s;
+// // // String Properties and Methods
 
-x = s.length;
+// // // Creating a "string object" (JS does this automatically when using a propery or method on a primitive string)
+// const s = new String('Hello World');
 
-// Access value by key
-x = s[0];
+// // x = typeof s;
 
-// Shows the prototype of the string object. Shows the properties and methods
-x = s.__proto__;
+// // x = s.length;
 
-// Change case
-x = s.toUpperCase();
-x = s.toLowerCase();
+// // // Access value by key
+// // x = s[0];
 
-// charAt() - returns the character at the specified index
-x = s.charAt(0);
+// // // Shows the prototype of the string object. Shows the properties and methods
+// // x = s.__proto__;
 
-// indexOf - returns the index of the first occurrence of a specified value in a string
-x = s.indexOf('d');
+// // // Change case
+// // x = s.toUpperCase();
+// // x = s.toLowerCase();
 
-// substring() - search a string for a specified value
-x = s.substring(2, 5);
-x = s.substring(7);
+// // // charAt() - returns the character at the specified index
+// // x = s.charAt(0);
 
-// slice() - extracts a part of a string and returns a new string
-x = s.slice(-11, -6);
+// // // indexOf - returns the index of the first occurrence of a specified value in a string
+// // x = s.indexOf('d');
 
-// trim() - remove whitespace from beginning and end of string
-x = '         Hello World';
-x = x.trim();
+// // // substring() - search a string for a specified value
+// // x = s.substring(2, 5);
+// // x = s.substring(7);
 
-// replace() - replace all instances of a string
-x = s.replace('World', 'John');
+// // // slice() - extracts a part of a string and returns a new string
+// // x = s.slice(-11, -6);
 
-// includes() - returns true if the string is found
-x = s.includes('Hell');
+// // // trim() - remove whitespace from beginning and end of string
+// // x = '         Hello World';
+// // x = x.trim();
 
-// valueOf() - returns the primitive value of a variable
-x = s.valueOf();
+// // // replace() - replace all instances of a string
+// // x = s.replace('World', 'John');
 
-// split() - returns an array of strings
-x = s.split('');
+// // // includes() - returns true if the string is found
+// // x = s.includes('Hell');
 
-console.log(x);
+// // // valueOf() - returns the primitive value of a variable
+// // x = s.valueOf();
+
+// // // split() - returns an array of strings
+// // x = s.split('');
+
+// console.log(x);
+
+
+
+//Challenge
+
+
+const myString = 'developer';
+
+
+myNewString = myString;
+
+myNewString = myNewString.replace('d', "D");
+
+console.log(myNewString); // 'Developer'

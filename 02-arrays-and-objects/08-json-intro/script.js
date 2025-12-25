@@ -7,12 +7,12 @@ const post = {
 // Convert to JSON string
 const str = JSON.stringify(post);
 
-console.log(str.id);
+// console.log(str.id);
 
-// Parse JSON
+// // Parse JSON
 const obj = JSON.parse(str);
 
-console.log(obj.id);
+// console.log(obj.id);
 
 // JSON & arrays
 const posts = [
@@ -30,4 +30,8 @@ const posts = [
 
 const str2 = JSON.stringify(posts);
 
-console.log(str2);
+const obj1 = JSON.parse(str2);
+
+// console.log(obj1[0].title);
+
+// console.log(str2);

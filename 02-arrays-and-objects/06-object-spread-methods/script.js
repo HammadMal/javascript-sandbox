@@ -9,6 +9,10 @@ todo.completed = false;
 
 x = todo;
 
+// console.log(x);
+
+// console.log(todo);
+
 // Object Nesting
 const person = {
   address: {
@@ -19,15 +23,20 @@ const person = {
   },
 };
 
-x = person.address.coords.lat;
+// x = person.address.coords.lat;
+
+// console.log(x);
 
 const obj1 = { a: 1, b: 2 };
 const obj2 = { c: 3, d: 4 };
 
 // Spread operator
 const obj3 = { ...obj1, ...obj2 };
-// Same as using ...
-const obj4 = Object.assign({}, obj1, obj2);
+
+// console.log(obj3);
+
+// // Same as using ...
+// const obj4 = Object.assign({}, obj1, obj2);
 
 // Array of objects
 const todos = [
@@ -36,21 +45,21 @@ const todos = [
   { id: 3, name: 'Take out trash' },
 ];
 
-x = todos[0].name;
+// x = todos[1].name;
 
-// Get array of object keys
-x = Object.keys(todo);
+// // Get array of object keys
+// x = Object.keys(todo);
 
-// Get length of an object
-x = Object.keys(todo).length;
+// // Get length of an object
+// x = Object.keys(todo).length;
 
-// Get array of object values
-x = Object.values(todo);
+// // Get array of object values
+// x = Object.values(todo);
 
-// Get array of object key/value pairs
-x = Object.entries(todo);
+// // Get array of object key/value pairs
+// x = Object.entries(todo);
 
-// Check if object has a property
-x = todo.hasOwnProperty('age');
+// // Check if object has a property
+// x = todo.hasOwnProperty('age');
 
 console.log(x);

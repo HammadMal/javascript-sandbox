@@ -1,18 +1,18 @@
-const x = 100;
+// const x = 100;
 
-// An If statement is a block
-if (true) {
-  console.log(x);
-  const y = 200;
-  console.log(x + y);
-}
+// // An If statement is a block
+// if (true) {
+//   console.log(x);
+//   const y = 200;
+//   console.log(x + y);
+// }
 
-// console.log(y); // ReferenceError: y is not defined
+// // console.log(y); // ReferenceError: y is not defined
 
-// A loop is a block
-for (let i = 0; i <= 10; i++) {
-  console.log(i);
-}
+// // A loop is a block
+// for (let i = 0; i <= 10; i++) {
+//   console.log(i);
+// }
 
 // console.log(i); // ReferenceError: i is not defined
 
@@ -33,7 +33,7 @@ function run() {
 
 run();
 
-// console.log(d);
+console.log(d);
 
 
 const foo = 1;

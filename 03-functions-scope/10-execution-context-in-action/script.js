@@ -11,3 +11,5 @@ const sum1 = getSum(x, y);
 const sum2 = getSum(10, 5);
 
 console.log(sum1, sum2);
+
+

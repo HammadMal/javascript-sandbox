@@ -17,18 +17,18 @@ console.log(differenceOutput); // 31 - 15 = 16
 console.log(productOutput); // 31 * 15 = 465
 console.log(quotientOutput); // 31 / 15 = 2.066666666666667
 console.log(rmOutput); // 31 % 15 = 1
+
 ```
 
 **Hints:**
 
 1. The `Math.random()` function returns a floating-point, pseudo-random number in the range 0 to less than 1
-
 2. The `Math.floor()` function will round a number down to the nearest integer
 
 <details>
   <summary>Click For Solution</summary>
-  
-  ```JavaScript
+
+```JavaScript
 x = Math.floor(Math.random() * 100) + 1;
 y = Math.floor(Math.random() * 50) + 1;
 
@@ -57,9 +57,13 @@ const rm = x % y;
 const rmOutput = `${x} % ${y} = ${rm}`;
 console.log(rmOutput);
 
+
+
+
 ```
 
 </details>
 
+```text
 
 ```

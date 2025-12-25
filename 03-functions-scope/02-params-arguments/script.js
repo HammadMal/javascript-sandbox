@@ -1,53 +1,55 @@
-// Default Params
-function registerUser(user = 'Bot') {
-  // Old way - before using `=`
-  // if (!user) {
-  //   user = 'Bot';
-  // }
+// // Default Params
+// function registerUser(user = 'Bot') {
+//   // Old way - before using `=`
+//   // if (!user) {
+//   //   user = 'Bot';
+//   // }
 
-  return user + ' is registered';
-}
+//   return user + ' is registered';
+// }
 
-console.log(registerUser());
+// console.log(registerUser());
 
-// Rest Params
-function sum(...numbers) {
-  let total = 0;
+// // Rest Params
+// function sum(...numbers) {
+//   let total = 0;
+//   console.log(numbers);
 
-  for (const num of numbers) {
-    total += num;
-  }
+//   for (const num of numbers) {
+//     total += num;
+//   }
 
-  return total;
-}
+//   return total;
+// }
 
-console.log(sum(1, 2, 3, 4, 5, 6, 100));
+// console.log(sum(1, 2, 3, 4, 5, 6, 100));
 
 // Objects as params
-function loginUser(user) {
-  return `The user ${user.name} with the id of ${user.id} is logged in`;
-}
+// function loginUser(user) {
+//   return `The user ${user.name} with the id of ${user.id} is logged in`;
+// }
 
-const user = {
-  id: 1,
-  name: 'John',
-};
+// const user = {
+//   id: 1,
+//   name: 'John',
+// };
 
-console.log(loginUser(user));
-console.log(
-  loginUser({
-    id: 2,
-    name: 'Sara',
-  })
-);
+// console.log(loginUser(user));
 
-// Arrays as params
-function getRandom(arr) {
-  const randomIndex = Math.floor(Math.random() * arr.length);
+// console.log(
+//   loginUser({
+//     id: 2,
+//     name: 'Sara',
+//   })
+// );
 
-  const item = arr[randomIndex];
+// // Arrays as params
+// function getRandom(arr) {
+//   const randomIndex = Math.floor(Math.random() * arr.length);
 
-  console.log(item);
-}
+//   const item = arr[randomIndex];
 
-getRandom([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
+//   console.log(item);
+// }
+
+// getRandom([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);

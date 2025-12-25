@@ -27,8 +27,10 @@ score = 1;
 console.log(score);
 
 if (true) {
-  score = score + 1;
+  score = score + 1; 
 }
+
+
 
 console.log(score);
 

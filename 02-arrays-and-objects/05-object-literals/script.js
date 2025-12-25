@@ -13,35 +13,39 @@ const person = {
   hobbies: ['music', 'sports'],
 };
 
-// Accessing object properties
-x = person.name; // Dot notation
-x = person['age']; // Bracket notation
-x = person.address.state;
-x = person.hobbies[0];
+// // Accessing object properties
+// x = person.name; // Dot notation
+// x = person['age']; // Bracket notation
+// x = person.address.state;
+// x = person.hobbies[0];
 
-// Updating properties
-person.name = 'Jane Doe';
-person['isAdmin'] = false;
+// // Updating properties
+// person.name = 'Jane Doe';
+// person.isAdmin = false;
 
-// Deleting properties
-delete person.age;
+// console.log(person.isAdmin);
+// person['isAdmin'] = false;
 
-// Create new properties
-person.hasChildren = true;
+// // Deleting properties
+// delete person.age;
 
-// Add functions
-person.greet = function () {
-  console.log(`Hello, my name is ${this.name}`);
-};
+// // Create new properties
+// person.hasChildren = true;
+// console.log(person);
 
-person.greet();
+// // Add functions
+// person.greet = function () {
+//   console.log(`Hello, my name is ${this.name}`);
+// };
 
-// Keys with multiple words
-const person2 = {
-  'first name': 'Brad',
-  'last name': 'Traversy',
-};
+// person.greet();
 
-x = person2['first name'];
+// // Keys with multiple words
+// const person2 = {
+//   'first name': 'Brad',
+//   'last name': 'Traversy',
+// };
 
-console.log(x);
+// x = person2['first name'];
+
+// console.log(x);

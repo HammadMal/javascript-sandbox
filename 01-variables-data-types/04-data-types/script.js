@@ -1,15 +1,18 @@
-// String
-const firstName = 'Sara';
+// // String
+// const firstName = 'Sara';
 
-// Number
-const age = 30;
-const temp = 98.9;
+// // Number
+// const age = 30;
+// const temp = 98.9;
 
-// Boolean
-const hasKids = true;
+// // Boolean
+// const hasKids = true;
 
-// Null
+// // Null
 const aptNumber = null;
+
+// console.log(typeof(aptNumber));
+
 
 // Undefined
 // let score;
@@ -35,7 +38,7 @@ function sayHello() {
 
 const output = sayHello;
 
-console.log(output, typeof output);
+// console.log(output, typeof output);
 
 // More info on why typeof null == object
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof#typeof_null

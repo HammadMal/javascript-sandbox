@@ -31,3 +31,5 @@ function add() {
 console.log(y);
 
 add();
+
+
