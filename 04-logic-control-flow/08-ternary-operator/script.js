@@ -34,8 +34,7 @@ const auth = true;
 
 // Shorter ternary version
 const redirect = auth
-  ? (alert('Welcome to the dashbaord'), '/dashboard')
-  : (alert('Access Denied'), '/login');
+  ? (alert('Welcome to the dashbaord'), '/dashboard') : (alert('Access Denied'), '/login');
 
 console.log(redirect);
 
