@@ -30,3 +30,5 @@ const socialObjs = [
 ];
 
 socialObjs.forEach((item) => console.log(item.url));
+
+

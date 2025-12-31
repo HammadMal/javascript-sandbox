@@ -44,9 +44,7 @@ const companyYears = companies.map((company) => {
 console.log(companyYears);
 
 // Chain map methods
-const squareAndDouble = numbers
-  .map((number) => Math.sqrt(number))
-  .map((sqrt) => sqrt * 2);
+const squareAndDouble = numbers.map((number) => Math.sqrt(number)).map((sqrt) => sqrt * 2);
 
 const squareAndDouble2 = numbers
   .map(function (number) {

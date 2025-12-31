@@ -28,3 +28,5 @@ const total = cart.reduce(function (acc, product) {
 }, 0);
 
 console.log(total);
+
+
