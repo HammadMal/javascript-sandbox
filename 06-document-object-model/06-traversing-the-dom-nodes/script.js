@@ -35,3 +35,4 @@ output = secondItem.nextSibling;
 output = secondItem.previousSibling;
 
 console.log(output);
+

@@ -1,5 +1,12 @@
 const clearBtn = document.querySelector('#clear');
 
+const AddBtn = document.querySelector('#add');
+
+// AddBtn.addEventListener('click', console.log("clicked"));
+
+
+
+
 function onClear() {
   const itemList = document.querySelector('ul');
   const items = itemList.querySelectorAll('li');
@@ -18,18 +25,18 @@ clearBtn.onclick = function () {
   alert('Clear Items');
 };
 
-clearBtn.onclick = function () {
-  console.log('Clear Items');
-};
+// // clearBtn.onclick = function () {
+// //   console.log('Clear Items');
+// // };
 
-// addEventListener()
-clearBtn.addEventListener('click', () => alert('Clear Items'));
+// // // addEventListener()
+// // clearBtn.addEventListener('click', () => alert('Clear Items'));
 
-// Use named function
-clearBtn.addEventListener('click', onClear);
+// // // Use named function
+// clearBtn.addEventListener('click', onClear);
 
-// removeEventListener()
-setTimeout(() => clearBtn.removeEventListener('click', onClear), 5000);
+// // // removeEventListener()
+// // setTimeout(() => clearBtn.removeEventListener('click', onClear), 5000);
 
-// Fire off event from JS
-setTimeout(() => clearBtn.click(), 5000);
+// // // Fire off event from JS
+// // setTimeout(() => clearBtn.click(), 5000);

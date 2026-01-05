@@ -18,3 +18,5 @@ document.write('Hello from JS');
 document.getElementById('main').innerHTML = '<h1>Hello from main</h1>';
 
 document.querySelector('#main h1').innerText = 'Hello';
+
+

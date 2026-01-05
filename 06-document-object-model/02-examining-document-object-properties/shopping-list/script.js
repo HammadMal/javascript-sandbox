@@ -52,3 +52,5 @@ const forms = Array.from(document.forms);
 forms.forEach((form) => console.log(form));
 
 console.log(output);
+
+

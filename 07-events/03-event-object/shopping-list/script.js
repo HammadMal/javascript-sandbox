@@ -20,7 +20,7 @@ function onDrag(e) {
   document.querySelector('h1').textContent = `X ${e.clientX} Y ${e.clientY}`;
 }
 
-logo.addEventListener('click', onClick);
+// logo.addEventListener('click', onClick);
 logo.addEventListener('drag', onDrag);
 
 // document.body.addEventListener('click', function (e) {
@@ -29,10 +29,10 @@ logo.addEventListener('drag', onDrag);
 // });
 
 // e.preventDefault() method prevents the default behavior
-document.querySelector('a').addEventListener('click', function (e) {
-  e.preventDefault();
-  console.log('Link was clicked');
-});
+// document.querySelector('a').addEventListener('click', function (e) {
+//   e.preventDefault();
+//   console.log('Link was clicked');
+// });
 
 /*
 - `target` - The element that triggered the event
