@@ -7,7 +7,7 @@
 let intervalID;
 
 function startChange() {
-  if (!intervalID) {
+  if (!intervalID) {  
     intervalID = setInterval(changeRandomColor, 1000);
   }
 }

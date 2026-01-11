@@ -35,5 +35,11 @@ function showError(error) {
 }
 
 createPost({ title: 'Post Three', body: 'This is post' })
-  .then(getPosts)
+  .then(getPost => {
+
+    getPosts(); 
+
+  })
   .catch(showError);
+
+  

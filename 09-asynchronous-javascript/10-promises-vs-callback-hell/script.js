@@ -34,3 +34,5 @@ getData('./movies.json')
     console.log(directors);
   })
   .catch((error) => console.log(error));
+
+  

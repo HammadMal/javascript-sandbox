@@ -13,7 +13,7 @@ const promise = new Promise((resolve, reject) => {
 
 const getUser = new Promise((resolve, reject) => {
   setTimeout(() => {
-    let error = true;
+    let error = false;
 
     if (!error) {
       resolve({ name: 'John', age: 30 });
@@ -29,3 +29,4 @@ getUser
   .finally(() => console.log('The promise has been resolved or rejected'));
 
 console.log('Hello from global scope');
+

@@ -35,3 +35,5 @@ Promise.all([moviesPromise, actorsPromise, directorsPromise, dummyPromise])
     console.log(data);
   })
   .catch((error) => console.log(error));
+
+  
